@@ -1,0 +1,217 @@
+[
+  {
+    "name": "dependencies",
+    "color": "#5aa8fc",
+    "description": "Pull requests that update a dependency file"
+  },
+  {
+    "name": "effort1: hours",
+    "color": "#e38846"
+  },
+  {
+    "name": "effort2: days",
+    "color": "#0ec3ec"
+  },
+  {
+    "name": "effort3: weeks",
+    "color": "#5d94f8"
+  },
+  {
+    "name": "flag: outside-of-scope",
+    "color": "#d3baf2"
+  },
+  {
+    "name": "github_actions",
+    "color": "#999999",
+    "description": "Pull requests that update GitHub Actions code"
+  },
+  {
+    "name": "good first issue 👍",
+    "color": "#dcddfe"
+  },
+  {
+    "name": "hacktoberfest-accepted",
+    "color": "#39f3a3"
+  },
+  {
+    "name": "javascript",
+    "color": "#27ec00",
+    "description": "Pull requests that update Javascript code"
+  },
+  {
+    "name": "needs clarification",
+    "color": "#d6f25a"
+  },
+  {
+    "name": "needs triage",
+    "color": "#ffffff",
+    "description": "This issue has not been looked into"
+  },
+  {
+    "name": "priority: critical (1)",
+    "color": "#fd9b8b",
+    "description": "Critical priority issue that must be resolved immediately"
+  },
+  {
+    "name": "priority: high (2)",
+    "color": "#f78864",
+    "description": "High priority issue that should be resolved as soon as possible"
+  },
+  {
+    "name": "priority: low (4)",
+    "color": "#82c0c0"
+  },
+  {
+    "name": "priority: medium (3)",
+    "color": "#18e022",
+    "description": "Medium priority issue that needs to be resolved"
+  },
+  {
+    "name": "priority: very low (5)",
+    "color": "#b19b95",
+    "description": "Very low-priority issue for consideration"
+  },
+  {
+    "name": "rebase",
+    "color": "#fe7c9e"
+  },
+  {
+    "name": "scope: common",
+    "color": "#1dd387"
+  },
+  {
+    "name": "scope: core",
+    "color": "#c9b9f3"
+  },
+  {
+    "name": "scope: microservices",
+    "color": "#e780b0"
+  },
+  {
+    "name": "scope: platform",
+    "color": "#4badbc"
+  },
+  {
+    "name": "scope: sample",
+    "color": "#c2ddf4"
+  },
+  {
+    "name": "scope: testing",
+    "color": "#fafead"
+  },
+  {
+    "name": "scope: websockets",
+    "color": "#7e9be9"
+  },
+  {
+    "name": "security",
+    "color": "#ffb0af",
+    "description": "Pull requests that address a security vulnerability"
+  },
+  {
+    "name": "state: community",
+    "color": "#fa8def",
+    "description": "Someone from the NestJS community is working on this issue or submitted this PR"
+  },
+  {
+    "name": "state: core-team",
+    "color": "#3abea0",
+    "description": "Someone from the NestJS core team is working on this issue or submitted this PR"
+  },
+  {
+    "name": "status: blocked 🚫",
+    "color": "#eb8fb7"
+  },
+  {
+    "name": "status: done 👏",
+    "color": "#9cec8d"
+  },
+  {
+    "name": "status: wip ⚡️",
+    "color": "#fef1be"
+  },
+  {
+    "name": "type: bug 😭",
+    "color": "#ffb0af"
+  },
+  {
+    "name": "type: build",
+    "color": "#b2e82c"
+  },
+  {
+    "name": "type: ci 🔧",
+    "color": "#dacffa"
+  },
+  {
+    "name": "type: code style",
+    "color": "#b1fcac"
+  },
+  {
+    "name": "type: deps",
+    "color": "#e4b144"
+  },
+  {
+    "name": "type: discussion 🔥",
+    "color": "#fac905"
+  },
+  {
+    "name": "type: docs 📄",
+    "color": "#dacffa"
+  },
+  {
+    "name": "type: duplicate 🗑️",
+    "color": "#cccccc"
+  },
+  {
+    "name": "type: enhancement 🐺",
+    "color": "#80b5ea"
+  },
+  {
+    "name": "type: example",
+    "color": "#c7cdff"
+  },
+  {
+    "name": "type: feature 🎉",
+    "color": "#00e4f8"
+  },
+  {
+    "name": "type: future plan 🍷",
+    "color": "#f791b8"
+  },
+  {
+    "name": "type: help wanted 🙂",
+    "color": "#1ee314"
+  },
+  {
+    "name": "type: invalid 🗑️",
+    "color": "#e6e6e6"
+  },
+  {
+    "name": "type: potential issue 💔",
+    "color": "#f9cfc3"
+  },
+  {
+    "name": "type: question 🙌",
+    "color": "#e697bf"
+  },
+  {
+    "name": "type: refactor",
+    "color": "#dd80d5"
+  },
+  {
+    "name": "type: release 📅",
+    "color": "#f78864"
+  },
+  {
+    "name": "type: todo 💚",
+    "color": "#83f1bc"
+  },
+  {
+    "name": "type: 3rd-party 🚀",
+    "color": "#ceb7f4"
+  },
+  {
+    "name": "won't fix",
+    "color": "#fcd136"
+  }
+]
