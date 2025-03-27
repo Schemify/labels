@@ -3,7 +3,7 @@ name: Sync labels
 on:
   push:
     paths:
-      - "./labels.*" # Asegúrate de que el archivo labels.yaml está en la ruta correcta
+      - ".github/labels.yml*" # Asegúrate de que el archivo labels.yaml está en la ruta correcta
   workflow_dispatch:
 
 jobs:
