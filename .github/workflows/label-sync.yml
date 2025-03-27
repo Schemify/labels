@@ -1,17 +1,22 @@
 name: Sync labels
+
 on:
   push:
     paths:
-      - "./labels.*"
+      - "./labels.*" # Asegúrate de que el archivo labels.yaml está en la ruta correcta
   workflow_dispatch:
 
 jobs:
   sync:
     name: Run EndBug/label-sync
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: EndBug/label-sync@v1
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Sync labels
+        uses: EndBug/label-sync@v1
         with:
-          token: ${{ secrets.REPOSITORY_TOKEN}}
-          config-file: ./labels.yaml
+          config-file: ./labels.yaml # Asegúrate de que esta ruta sea correcta
+          token: ${{ secrets.GITHUB_TOKEN }}
