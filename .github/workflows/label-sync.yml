@@ -18,5 +18,5 @@ jobs:
       - name: Sync labels
         uses: EndBug/label-sync@v1
         with:
-          config-file: ./labels.yaml # Asegúrate de que esta ruta sea correcta
+          config-file: .github/labels.yml
           token: ${{ secrets.GITHUB_TOKEN }}
